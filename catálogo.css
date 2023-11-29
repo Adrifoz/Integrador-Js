@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background: url(https://previews.123rf.com/images/sn333g/sn333g1602/sn333g160200057/53263946-fondo-azul-de-los-servicios-de-plomer%C3%ADa.jpg) ;
+    box-sizing: border-box;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    box-shadow: 0 8px 24px black;
+    background-color: rgb(61, 61, 141);
+    position: fixed;
+    width: 100%;
+}
+
+.ico {
+display: flex;
+flex-direction: row;
+align-items: center;
+} 
+ 
+.ico h1{
+    color: black;
+    font-size: small;
+    padding-left: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+
+.navbar-link {
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.buttonssesion {
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+    .buttonssesion a{
+        color: rgb(211, 211, 137);
+        font-size: 17px;
+        }
+
+    .iconav {
+        width: 30px; 
+        height: 30px;
+    }
+
+    .icotexto {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 9px;
+    }
+    .icotexto h1 {
+        padding-left: 10px;
+      }
+
+
+                /* CONTENT */
+.content {
+    
+    padding-top: 100px;
+}
+    .content > h1 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(121, 121, 226);
+    border-top: solid rgb(61, 61, 141);
+    }
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+ul a {
+    display:flex ;
+    color:aquamarine; 
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 20px;
+    padding-right: 50px;
+
+}
+
+
+/* SECCIÓN PRODUCTOS */
+
+.productos {
+    display: flex;
+    flex-direction: column;
+}
+
+.productos h2, .productos h3  {
+    background-color: rgb(121, 121, 226);
+    padding: 1rem;
+    border-top: solid rgb(61, 61, 141);
+}
+
+.productos h2 {
+    display: flex;
+    justify-content: center;
+}
+.productos h3{
+    border-bottom-left-radius: 18px;
+}
+
+.items {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+    /* CANILLA LAVATORIO */
+
+.canilla_lavatorio{
+    display: flex;
+    width: 250px;
+    height: 250px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    border-radius: 10px;
+    border: solid blue;
+    padding: 0.5rem;
+    padding-bottom: 1rem;
+
+}
+.canilla_lavatorio:hover {
+    background-color: rgb(38, 167, 167);
+    transition: 0.4s;
+}
+.img_lavatorio {
+    display: flex;
+    justify-content: center;
+width: 60%;
+height: 60%;
+
+}
+.img_lavatorio img{
+    border-radius:8px;
+}
+
+.h3_lavatorio {
+    width: 266px;
+}
+
+
+.canilla_lavatorio button{
+    margin-top: 10px;
+}
+
+/* CANILLA MESADA */
+
+.canilla_mesada{
+    display: flex;
+    width: 250px;
+    height: 250px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    border-radius: 10px;
+    border: solid blue;
+    padding: 0.5rem;
+    padding-bottom: 1rem;
+
+}
+.canilla_mesada:hover {
+    background-color: rgb(38, 167, 167);
+    transition: 0.4s;
+}
+.img_mesada {
+    display: flex;
+    justify-content: center;
+width: 60%;
+height: 60%;
+
+}
+.img_mesada img{
+    border-radius:8px;
+}
+
+.h3_mesada {
+    width: 266px;
+}
+
+
+.canilla_mesada button{
+    margin-top: 10px;
+}
+
+/* CANILLA PARED */
+
+.canilla_pared{
+    display: flex;
+    width: 250px;
+    height: 250px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    border-radius: 10px;
+    border: solid blue;
+    padding: 0.5rem;
+    padding-bottom: 1rem;
+
+}
+.canilla_pared:hover {
+    background-color: rgb(38, 167, 167);
+    transition: 0.4s;
+}
+.img_pared {
+    display: flex;
+    justify-content: center;
+width: 60%;
+height: 60%;
+
+}
+.img_pared img{
+    border-radius:8px;
+}
+
+.h3_pared {
+    width: 266px;
+}
+
+
+.canilla_pared button{
+    margin-top: 10px;
+}
+
+/* LLAVE PASO */
+
+.llave_paso{
+    display: flex;
+    width: 250px;
+    height: 250px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    border-radius: 10px;
+    border: solid blue;
+    padding: 0.5rem;
+    padding-bottom: 1rem;
+
+}
+.llave_paso:hover {
+    background-color: rgb(38, 167, 167);
+    transition: 0.4s;
+}
+.img_paso {
+    display: flex;
+    justify-content: center;
+width: 60%;
+height: 60%;
+
+}
+.img_paso img{
+    border-radius:8px;
+}
+
+.h3_paso {
+    width: 266px;
+}
+
+
+.llave_paso button{
+    margin-top: 10px;
+}
+
+
+/* CONTACTO */
+
+
+.contacto{
+    padding-top: 250px ;
+    font-size: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar i {
+    font-size: 36px;
+    display: none;
+}
+#toggle-menu {
+    display: none;
+}
+
+/* RESPONSIVE DESIGN Y MENU HAMBURGUESA */
+
+ @media (max-width: 576px) {
+
+    .navbar ul{
+        width: 100%;
+        background-color: aqua;
+        height: calc(100vh - 80px);
+        position: absolute;
+        top: 80px;
+        left: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        display: none;
+    }
+
+
+.navbar i{
+    display: block;
+}
+
+
+#toggle-menu:checked ~ .navbar-list {
+display: flex;
+}
+
+.navbar-list a{
+    color: black;
+}
+}
+
+
+
+
+
